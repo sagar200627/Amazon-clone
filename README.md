@@ -29,5 +29,5 @@ This project is inspired by the design of Amazon.in and includes a responsive la
 ---
 
 ## 📁 Folder Structure
-
-
+### 🌐 Live Demo
+[Click here to view the live project](https://sagar200627.github.io/your-repo-name/)

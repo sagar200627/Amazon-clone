@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* HEADER */
+header {
+  background-color: #131921;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+header h1 {
+  font-size: 22px;
+  color: #ff9900;
+}
+
+.cart {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* PRODUCTS */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.product {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  width: 230px;
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.product h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product p {
+  color: #007600;
+  font-weight: bold;
+}
+
+.product button {
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product button:hover {
+  background-color: #f7ca00;
+}
+
+/* CART */
+.cart-container {
+  background-color: white;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cart-container h2 {
+  color: #111;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-btn {
+  background-color: #ffa41c;
+  border: none;
+  padding: 10px 20px;
+  color: #111;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.checkout-btn:hover {
+  background-color: #f59b00;
+}
+
+/* FOOTER */
+footer {
+  background-color: #232f3e;
+  color: #ddd;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.back-to-top {
+  text-align: center;
+  background-color: #37475a;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+}
+
+.footer-column {
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin: 6px 0;
+}
+
+.footer-column a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #131a22;
+  color: #999;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-bottom a {
+  color: #999;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
